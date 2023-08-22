@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Shadows+Into+Light&display=swap');
+:root{
+font-family: 'Pacifico', cursive;
+font-family: 'Shadows Into Light', cursive;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+background-color: black;
+color: white;
+position: sticky;
+top: 1px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    color: bisque;
+}
+table,td{
+    border: 1px solid black;
+}
+button{
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+input{
+    width: 100%;
+    margin: 5px;
+}
+form{
+    padding: 0px 200px;
+
+}
+label{
+    font-weight: bolder;
+}
